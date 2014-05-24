@@ -28,6 +28,6 @@ For each record it is provided:
 
 The dataset includes the following files:
 =========================================
-README.md
-codebook.md
-run_analysis.R
+- README.md
+- codebook.md
+- run_analysis.R

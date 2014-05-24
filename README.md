@@ -14,14 +14,12 @@ The original data are accelerometer and gyroscope data, captured 3-axial linear 
 
 From the original data a subset of mean and standard deviation values were chosen for all subjects and activities. The mean was subsequently calculated on the subset and grouped by subject and activity.
 
-To run the script, the unzipped data files from the original study must be inside the local folder.
+The run_analysis script outputs a tab delimited text file that transforms the original data into the selected tidy one. The unzipped data files from the original study must be inside the local folder.
 
 For each record it is provided:
 ======================================
 
-- mean 
-- standard deviation
-- A 86-feature vector with time and frequency domain variables. 
+- A 79-feature vector with time and frequency domain variables (mean and standard deviation calculations) 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
